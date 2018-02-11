@@ -10,5 +10,4 @@
               ((:unix (:not :darwin) :x86-64) "libode.so.bodged" "x86_64/")
               ((:unix (:not :darwin) :x86) "libode.so.bodged" "x86/")
               ((:windows :x86-64) "libode.dll.bodged" "x86_64/")
-              ((:windows :x86) "libode.dll.bodged" "x86/"))
-  :components ((:file "link")))
+              ((:windows :x86) "libode.dll.bodged" "x86/")))
